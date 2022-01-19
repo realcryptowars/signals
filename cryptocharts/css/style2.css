@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+	shape-inside: auto;
+	background: #d9dadb;
+	display:flex;
+	border: hidden;
+	flex-direction: column;
+	align-content: center;
+}
+
+grid {
+	display: grid;
+	align-content: center;
+	outline: none;
+	border-color: transparent;
+}
+
+
+div {
+	align-content: center;
+}
+
+
+.header {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center;
+}
+
+.column {
+	align-content: stretch;
+	border: thin;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+
+a:link {
+    color: #f1f1f1;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f1f1f1;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: ghostwhite;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+*{
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav{
+	border-color:#000000;
+	border-spacing: inherit;
+	align-content: center;
+	border: thick;
+	font-size: 19px;
+	padding: 50px;
+	background: #59FF00;
+	
+}
+
+
+nav:active {
+	color: #FF0004;
+	scroll-behavior: smooth;
+	
+}
+
+nav{
+	border-color: #00EBFF;
+	border-spacing: inherit;
+	align-content: center;
+	border: thick;
+	font-size: 19px;
+	padding: 50px;
+	background: #59FF00;
+	
+}
+
+.nav2{
+	border-color: transparent;
+	background: #C6C6C6;
+	align-content: center;
+	font-size: 16px;
+	padding: 0px;
+	
+}
+
+ul{
+	background-color: white;
+	align-content: center;
+	border: thick;
+	font-style: thin;
+	font-family:
+}
+
+p{
+	border:#000000;
+	border-width: thin;
+	background: #FF00CE;
+	
+}
