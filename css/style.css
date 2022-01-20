@@ -4,10 +4,26 @@ body {
 	background: #FFFFFF;
 	display:block;
 	border: hidden;
+	font-size: 30px;
 	flex-direction: column;
 	align-content: flex-end;
 	width: 100%;
 	color: black;
+	font-family: "Agency FB", Minecraft
+}
+
+body2 {
+    margin: 0;
+	shape-inside: auto;
+	background: #FFFFFF;
+	display:block;
+	border: hidden;
+	font-size: 26px;
+	flex-direction: column;
+	align-content: flex-end;
+	width: 100%;
+	color: black;
+	font-family: "Minecraft", Minecraft
 }
 
 
@@ -144,12 +160,28 @@ li.dropdown2 {
     display: block;
 }
 
+
+
+h1a{
+	//outline: inset;
+	//outline-width: thin;
+	margin: 50px;
+	outline-color: gray;
+	color: black;
+	font-size: 70px;
+	font-family: "Minecraft", Minecraft
+}
+
+
+
 h1{
-	outline: inset;
-	outline-width: thin;
+	///outline: inset;
+	///outline-width: thin;
 	margin: 10px;
 	outline-color: gray;
-	font-size: 30px;
+	color: black;
+	font-size: 70px;
+	font-family: "Agency FB", Minecraft
 }
 
 
