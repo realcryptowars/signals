@@ -12,6 +12,19 @@ body {
 	font-family: "Agency FB", Minecraft
 }
 
+
+h1a{
+	//outline: inset;
+	//outline-width: thin;
+	margin: 50px;
+	outline-color: gray;
+	color: black;
+	font-size: 70px;
+	opacity: 80%;
+	font-family: "Minecraft", Minecraft
+}
+
+
 body2 {
     margin: 0;
 	shape-inside: auto;
@@ -29,8 +42,12 @@ body2 {
 
 a:link {
     color: black;
+	border: thin;
+	width: 40;
     background-color: transparent; 
     text-decoration: none;
+	font-size: 23px;
+	font-family: "Minecraft", Minecraft
 }
 
 a:visited {
@@ -40,7 +57,7 @@ a:visited {
 }
 
 a:hover {
-    color: white;
+    color: green;
     background-color: transparent;
     text-decoration: none;
 }
@@ -159,20 +176,6 @@ li.dropdown2 {
 .dropdown2:hover .dropdown-content2 {
     display: block;
 }
-
-
-
-h1a{
-	//outline: inset;
-	//outline-width: thin;
-	margin: 50px;
-	outline-color: gray;
-	color: black;
-	font-size: 70px;
-	font-family: "Minecraft", Minecraft
-}
-
-
 
 h1{
 	///outline: inset;
