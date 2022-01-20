@@ -54,18 +54,21 @@ a:visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
+	font-family: "Minecraft", Minecraft
 }
 
 a:hover {
     color: green;
     background-color: transparent;
     text-decoration: none;
+	font-family: "Minecraft", Minecraft
 }
 
 a:active {
     color: white;
     background-color: transparent;
     text-decoration: none;
+	font-family: "Minecraft", Minecraft
 }
 
 
